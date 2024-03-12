@@ -1,4 +1,3 @@
-# github.io Website Template
-The source code for the personal page of this user.
+## Website Source Code
 
-Provided by the tutorial at https://kinsta.com/blog/github-pages/
+There is nothing to see here.
