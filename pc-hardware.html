@@ -11,10 +11,42 @@
             integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
         <!-- Devicon: Programming languages icons -->
         <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
-		
+		<style>
+            figure {
+                display: inline-block;
+                border: 1px dotted gray;
+                margin: 20px; /* adjust as needed */
+            }
+            figure img {
+                vertical-align: top;
+                max-width: 400px;
+                max-height: 400px;
+            }
+            figure figcaption {
+                border: 1px dotted blue;
+                text-align: center;
+            }
+            .column {
+              float: left;
+            }
+            .left {
+              width: 54%;
+            }
+            .right {
+              width: 35%;
+            }
+            .row:after {
+              content: "";
+              display: table;
+              clear: both;
+            }
+            body {
+              overflow-x: hidden;
+            }
+        </style>
     </head>
 
-    <body>
+  <body>
         <nav class="navbar navbar-dark navbar-expand-lg bg-dark ">
             <div class="container-fluid">
                 <div class="mx-4">
@@ -43,3 +75,62 @@
                 </div>
             </div>
         </nav>
+       
+        <div class="text-center mb-4">
+            <br>
+            <h2>A Few Systems I've Built</h2>
+        </div>
+
+    <div class="row">
+      <div class="column left">
+        <figure>
+            <img src='images/dualxeon.JPEG' alt='missing' />
+            <figcaption><em>Dual Xeon Server (Built Feb 2024)</em>
+                <br>X99 Board, E5-2680V4.
+                <br>64gb ECC 3200mhz and many drives.</figcaption>
+        </figure>
+        <figure>
+            <img src='images/redpc.jpeg' alt='missing' />
+            <figcaption><em>Former Personal Desktop (Built Mar 2021)</em>
+                <br>Ryzen 5 3600, SFF PC. Phanteks Enthoo Evolv Mini.
+                <br>Started as an RTX 2060, upgraded to a 3060 Ti.</figcaption>
+        </figure>
+        <figure>
+            <img src='images/chasepc.jpg' alt='missing' />
+            <figcaption><em>Chase's PC (Built Feb 2023)</em>
+                <br>Worked with my friend, Chase, to build his first PC.
+                <br>R5 5600, RTX 3060, 16GB DDR4. Picture taken by him.</figcaption>
+        </figure>
+        <figure>
+            <img src='images/myfirstpc.jpeg' alt='missing' />
+            <figcaption><em>My First Custom PC (Built Dec 2019)</em>
+                <br>My Christmas request was parts I researched that year.
+                <br>Ryzen 3, RX 480. Dad supervised the process!</figcaption>
+        </figure>
+      </div>
+      
+      <div class="column right">
+        <br>
+        <p> As <a href="index">my Home Page</a> suggested, I've got a lot of experience building custom
+            desktop computers- many of which I probably should've gotten pictures of. That being said, 
+            here are some of the computers that I've planned and built ground up myself (with my dad's 
+            supervision in 2019 being an exception). I've built a few more outside of these that I did
+            not document so well, however as I continue to build I will hopefully get more professional
+            level pictures to showcase here or wherever I decide is worth showcasing them.
+        </p>
+        <p> I typically use either Microsoft Excel to plan parts and budgets, or just the classic <a href="https://pcpartpicker.com">PCPartPicker</a>.
+        </p>
+        <p> My first real hands-on hardware experience(s) are from back when I had my first PC, a Dell 
+        Optiplex 780. It came with a Core 2 Duo E8400, 8gb of DDR3 1666mhz memory, and some mechanical 
+        hard drive. My first efforts towards making the system more suitable for my needs/wants as a kid
+        involved buying more dedicated memory, and swapping in a Core 2 Quad Q6600 (equal in most performance
+        to the E8400, while somehow sporting more cores and threads. Was good for my primitive Blender
+        rendering days using Blender version 2.6).
+        </p>
+        <p> From then on out, I just kept learning and working on computer hardware. It's something I have
+        always found to be really fun, and I'm very glad that I started in the first place. 
+        </p>
+      </div>
+    </div>
+</body>
+</html>
